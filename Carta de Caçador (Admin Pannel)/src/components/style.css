@@ -1,0 +1,58 @@
+.mnheader{
+    padding: 1rem;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    background-color: rgb(144, 186, 172);
+    justify-content: space-between;
+}
+.ch1{
+    width: 30%;
+}
+.ch1 span{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: green;
+}
+.ch2 span{
+    color: #fff;
+    background-color: green;
+    border-radius: .3rem;
+    text-decoration: none;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    margin: .5rem;
+}
+.mntbl{
+    border: 1px solid black;
+    width: 100%;
+}
+.mntbl th{
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #000;
+    font-weight:"bolder";
+}
+.mntbl th,td{
+padding: 1rem;
+text-align: center;
+border: 1px solid black;
+}
+
+.delete{
+    border-style: none;
+    background-color: red;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    color: #fff;
+    border-radius: .2rem;
+}
+
+.update{
+    border-style: none;
+    background-color: #548a3e;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    color: #fff;
+    border-radius: .2rem;
+}
