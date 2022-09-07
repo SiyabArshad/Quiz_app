@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "CartadeCacador",
+    "slug": "CartadeCacador",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/mainsplashscreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cartadecacador",
+      "buildNumber":"1"
+    },
+    "android": {
+      "package": "com.cartadecacador",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  },
+  "packagerOpts": {
+    "sourceExts": ["cjs"]
+  }
+}
